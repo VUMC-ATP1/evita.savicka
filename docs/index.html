@@ -5,49 +5,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VUMS - Classroom (03.05.2022.)</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
-    <script src="js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div id="header"></div>
-    <div class="left-side"></div>
-    <div class="content">
-        <br><br>
-        <h1>My CV Template</h1>
-        <h2>Evita Savicka</h2>
-        <hr>
-        <br>
-        <p class="paragraphStyle">Interests:</p>
-        <ol>
-            <li>Quality Assurance</li>
-            <li>Manual Testing</li>
-            <li>Test Automation</li>
-        </ol>
-        <p class="paragraphStyle">Skills:</p>
-        <ul>
-            <li>Java</li>
-            <li>Selenium</li>
-            <li>REST API</li>
-        </ul>
-        <p class="paragraphStyle">Education:</p>
-        <ul>
-            <li>University of Latvia</li>
-        </ul>
-        <p class="paragraphStyle">Experience:</p>
-        <ul>
-            <li>EIS group Latvia</li>
-            <li>Internum</li>
-            <li>Citadele</li>
-        </ul>
-    </div>
-    <div class="right-side"></div>
-    <div id="footer">
-        <h3 id="copyright">All rights reserved, VUMC @ 2022</h3>
+
+    <!-- Main container-->
+    <div class="main-container">
+        <!-- Main content section-->
+        <div class="Main-content-section">
+            <!-- about me section-->
+            <div class="about-me-section">
+                <h2 class="about-me-profession">IT Qaulity Assurance Software Tester</h2>
+                <h1 class="about-me-name">Evita Savicka</h1>
+                <p class="about-me-discription">Highly skilled IT Quality Assurance Software Tester has six years of experience testing complex business client applications testing. Possesses excellent abilities to create testing strategies and implement them to ensure delivery of sound
+                    applications. Has a Bachelors Degree in Computer Engineering and has strong analytical skills and creativity.</p>
+            </div>
+
+            <!--My work experience section-->
+            <div class="my-work-experience-section">
+                <h3 class="main-content-title">Work Experience</h3>
+
+                <!--company 2-->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position">IT Quality Assurance Software Tester <span class="my-work-experience-company"> Company 1</span></h4>
+                    <p class="my-work-experience-period">September 2019 - up to now <span class="my-work-experience-divider">|</span> Country</p>
+
+                    <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">Tested developed applications by attempting to break code in novel ways.</li>
+                        <li class="my-work-experience-duty">Ensured software applications were efficient and responsive to client needs.</li>
+                        <li class="my-work-experience-duty">Collaborated with applications development team.</li>
+                        <li class="my-work-experience-duty">Wrote technical reports of findings and presented them to team.</li>
+                    </ul>
+                </div>
+
+                <!--company 1-->
+                <div class="my-work-experience-company-block">
+                    <h4 class="my-work-experience-position">IT Quality Assurance Software Tester <span class="my-work-experience-company"> Company 2</span></h4>
+                    <p class="my-work-experience-period">December 2016 - September 2019 <span class="my-work-experience-divider">|</span> Country</p>
+
+                    <ul class="my-work-experience-duties">
+                        <li class="my-work-experience-duty">Managed applications testing process implementation.</li>
+                        <li class="my-work-experience-duty">Identified application defects and recommended code changes as needed.</li>
+                        <li class="my-work-experience-duty">Employed creative testing methods.</li>
+                        <li class="my-work-experience-duty">Wrote technical reports of findings and presented them to team.</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!--My education section-->
+            <div class="my-education-section">
+                <h3 class="my-education-header">Education</h3>
+                <h4 class="my-education-university">Bachelors of Sciences Degree</h4>
+                <h4 class="my-education-faculty">Software Engineering</h4>
+                <p class="my-work-experience-period">September 2012 - June 2016 <span class="my-work-experience-divider">|</span> Country</p>
+            </div>
+        </div>
+
+        <!-- sidebar section-->
+        <aside class="sidebar-section">
+            <img src="img/20211207_201603.jpg" alt="my photo">
+
+            <!-- contacts section-->
+            <div class="contacts-section">
+                <h3 class="sidebar-title">Contacts</h3>
+                <div>
+                    <span class="contact-section-type">C:</span>
+                    <a class="contact-section-link" href="tel:+1234567899">+1 234 567 899</a>
+                </div>
+                <div>
+                    <span class="contact-section-type">E:</span>
+                    <a class="contact-section-link" href="mailto:savickaevita@gmail.com">savickaevita@gmail.com</a>
+                </div>
+                <div>
+                    <span class="contact-section-type">L:</span>
+                    <a href="https://www.linkedin.com/in/evita-savicka-52a530227/" target="_blank">LinkedIn profile</a>
+                </div>
+            </div>
+
+            <!-- tech skills section-->
+            <div class="tech-skills-section">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech-skills-list">
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Agile</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">GIT</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">SDLC</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">SQL</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Automation Testing</span></li>
+                    <li class="tech-skills-item"> <span class="tech-skills-item-text">Manual Testing</span></li>
+                </ul>
+            </div>
+            <!-- soft skills section-->
+            <div class="soft-skills-section">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft-skills-list">
+                    <li class="soft-skills-item"> <span class="soft-skills-item-text">Teamwork</span> </li>
+                    <li class="soft-skills-item"> <span class="soft-skills-item-text">Communication</span> </li>
+                    <li class="soft-skills-item"> <span class="soft-skills-item-text">Problem-solving</span> </li>
+                    <li class="soft-skills-item"> <span class="soft-skills-item-text">Analytical Thinker</span> </li>
+                </ul>
+            </div>
+        </aside>
     </div>
 
 </body>
