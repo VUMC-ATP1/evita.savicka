@@ -57,4 +57,9 @@ li {
     font-style: italic;
 }
 
-#copyright {}
+#copyright {
+    font-family: 'Macondo', cursive;
+    float: right;
+    margin-top: 10px;
+    margin-right: 20px;
+}
